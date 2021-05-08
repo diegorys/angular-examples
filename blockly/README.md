@@ -4,6 +4,7 @@
 
 ```
 ng new blockly
+cd blockly
 ```
 - Would you like to add Angular routing? N
 - Which stylesheet format would you like to use? (Use arrow keys) SCSS
