@@ -1,6 +1,4 @@
-# Blocky
-
-- [ngx-blockly](https://www.npmjs.com/package/ngx-blockly)
+# Hi
 
 ```
 ng new hi
