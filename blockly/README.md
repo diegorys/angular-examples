@@ -8,10 +8,13 @@ cd blockly
 ```
 - Would you like to add Angular routing? N
 - Which stylesheet format would you like to use? (Use arrow keys) SCSS
+
+Añadimos el paquete **npm** para **Blockly**
+
 ```
 npm install --save ngx-blockly
 ```
-- En angular.json
+En angular.json
 ```
 "scripts": [
     "node_modules/ngx-blockly/scripts/blockly/blockly_compressed.js",
@@ -20,7 +23,7 @@ npm install --save ngx-blockly
     "node_modules/ngx-blockly/scripts/blockly/msg/js/en.js",
 ]
 ```
-- En app.module.ts
+En app.module.ts
 ```
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
@@ -67,7 +70,7 @@ export class AppComponent {
   };
 }
 ```
-- En app.component.html
+En app.component.html
 ```
 <h1>Ejemplo Angular y Blockly</h1>
 <p><a href="http://diegorys.es">diegorys</a></p>
@@ -81,11 +84,11 @@ ngx-blockly {
   height: calc(100vh - 8em);
 }
 ```
-- Lanzamos la aplicación
+Lanzamos la aplicación
 ```
 npm start
 ```
-- Abrimos en el navegador
+Abrimos en el navegador
 ```
 http://localhost:4200/
 ```
